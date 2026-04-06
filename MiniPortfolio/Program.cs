@@ -21,7 +21,6 @@ class Portfolio
         Console.WriteLine("PhoneNumber" + PhoneNumber);
 
         Skills();
-        TesdaAchievements();
 
         Console.WriteLine("==============================");
     }
@@ -30,18 +29,8 @@ class Portfolio
     {
         Console.WriteLine("Skills:");
         Console.WriteLine("- SQL Database");
-        Console.WriteLine("- SQL Database");
-        Console.WriteLine("- PHP Programming");
         Console.WriteLine("- Java Programming\n");
     }
-
-    public void TesdaAchievements()
-    {
-        Console.WriteLine("Tesda Achievements:");
-        Console.WriteLine("- TESDA NC II: Java Programming");
-        Console.WriteLine("- TESDA NC II: Computer Servicing  Systems\n");
-    }
-    
 }
 
 class Program
@@ -57,9 +46,8 @@ class Program
         myPortfolio.Email = "pupbsitestalillajohanna@gmail.com";
         myPortfolio.PhoneNumber = "+63 966 395 2110";
 
-        myPortfolio.DisplayMiniPortfolio();
 
-        Console.WriteLine("==============================");
+        myPortfolio.DisplayMiniPortfolio();
 
         Console.WriteLine("\nPress any key to exit...");
         Console.ReadKey();

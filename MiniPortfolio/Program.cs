@@ -21,16 +21,30 @@ class Portfolio
         Console.WriteLine("PhoneNumber" + PhoneNumber);
 
         Skills();
+        TesdaAchievements();
 
         Console.WriteLine("==============================");
     }
 
     public void Skills()
     {
+        Console.WriteLine("\n------------------------------");
         Console.WriteLine("Skills:");
         Console.WriteLine("- SQL Database");
+        Console.WriteLine("- Laravel Framework");
+        Console.WriteLine("- PHP Programming");
         Console.WriteLine("- Java Programming\n");
     }
+
+     public void TesdaAchievements()
+    {
+        Console.WriteLine("\n------------------------------");
+        Console.WriteLine("Achievements:");
+        Console.WriteLine("- TESDA NC II: Java Programming");
+        Console.WriteLine("- TESDA NC II: Computer Systems Servicing\n");
+    }
+
+    
 }
 
 class Program

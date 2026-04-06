@@ -6,6 +6,8 @@ class Portfolio
     public string Course;
     public string School;
     public string YearLevel;
+    public string Email;
+    public string PhoneNumber;
 
     public void DisplayMiniPortfolio()
     {
@@ -15,6 +17,8 @@ class Portfolio
         Console.WriteLine("Course: " + Course);
         Console.WriteLine("School: " + School);
         Console.WriteLine("Year Level: " + YearLevel);
+        Console.WriteLine("Email: " + Email);
+        Console.WriteLine("PhoneNumber" + PhoneNumber);
 
         Skills();
 
@@ -39,6 +43,9 @@ class Program
         myPortfolio.Course = "BS Information Technology";
         myPortfolio.School = "Polytechnic University of the Philippines";
         myPortfolio.YearLevel = "3rd Year";
+        myPortfolio.Email = "pupbsitestalillajohanna@gmail.com";
+        myPortfolio.PhoneNumber = "+63 966 395 2110";
+
 
         myPortfolio.DisplayMiniPortfolio();
 
